@@ -1,0 +1,24 @@
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# --- Virtual environments (Windows) ---
+/Lib/
+/Scripts/
+/Include/
+pyvenv.cfg
+.venv/
+venv/
+env/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Data & models (optional – adapt to your needs) ---
+# data/raw/*
+# models/*.joblib
